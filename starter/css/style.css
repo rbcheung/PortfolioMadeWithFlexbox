@@ -7,6 +7,7 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-color: lightgrey;
 }
 
 h1,
@@ -21,3 +22,27 @@ h6 {
 p {
   margin: 0;
 }
+/* Navigation Bar CSS */
+.nav-list {
+background-color: white;
+box-shadow: 0px 0px 10px darkslategray;
+margin: 0;
+padding: 1rem 0;
+border-radius: 0.2em;
+display:flex;
+Justify-content: flex-end;
+align-items: center;
+}
+.nav-item {
+  list-style: none;
+  margin-right: 2em;
+}
+.nav-item a {
+  text-decoration: none;
+  color:black
+}
+.nav-item:first-child {
+  margin-right: auto;
+  margin-left: 2rem;
+}
+

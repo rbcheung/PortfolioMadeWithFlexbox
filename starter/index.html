@@ -5,22 +5,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Ryan Cheung Portfolio Page</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-  <!-- main logo / nav -->
-  <header>
-    <h1>Lernantino</h1>
-    <nav>
+  <!-- main logo / nav 
+  <header class="header">
+    <h1>Ryan Cheung</h1>
+    <div class="profilepic">
+      <img src="../starter/images/profilepic.jpg" height="100px" width="auto" alt="profile picture">
+    </div>
+    <nav class="nav">
+      <a href="#about">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact Me</a>
     </nav>
-  </header>
+  -->
+
+    
+  <navbar>
+    <ul class="nav-list">
+      <li class="nav-item">
+        <h1>Ryan Cheung</h1>
+      </li>
+      <li class="nav-item">
+        <a href="#about">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a href="#work">Work</a>
+      </li>
+      <li class="nav-item">
+        <a href="#contact">Contact Me</a>
+      </li>
+    </ul>
+  </navbar>
 
   <!-- hero banner -->
   <section class="hero-banner">
     <div>
-      <h2>Cool subtitle here!</h2>
+      <h2>Welcome to my portfolio. Hope you enjoy!</h2>
     </div>
   </section>
 
@@ -28,18 +52,60 @@
     <!-- about me -->
     <section class="page-section" id="about">
       <h2>About Me</h2>
+      <p>Hello my name is Ryan, I am currently participating in the coding bootcamp by edx in order to get the necessary skills and experience to switch careers and land my first job in the tech industry.</p>
     </section>
 
     <!-- portfolio container -->
-    <section class="page-section" id="work">
+    <!-- <div class="page-section" id="work">
       <h2>Work</h2>
-    </section>
+      <div class="row">
+        <div class="card-01">
+          <div class="card-header">
+            <h3>card1</h3>
+      </div>
+
+      <div class="row">
+        <div class="card-02">
+          <div class="card-header">
+            <h3>card2</h3>
+        </div>
+        <div class="card-02">
+          <h3 class="card-header">card2</h3>
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="card-03">
+          <div class="card-header">
+            <h3>card3</h3>
+        </div>
+        <div class="card-03">
+          <div class="card-header">
+            <h3>card3</h3>
+        </div>
+      </div> -->
+
+      <div class="page-section" id="work">
+        <div class="card">
+          <div class="card-image"></div>
+          <h3>card 1</h3>
+          <p>text</p>
+        </div>
+      </div>
+
 
     <!-- contact -->
-    <section class="page-section contact" id="contact">
+    <section class="page-section" id="contact">
       <h2>Contact Me</h2>
+      <nav>
+        <a href="#top">Instagram</a>
+        <a href="#top">My Website</a>
+        <a href="#top">Github</a>
+        <a href="#top">Twitter</a>
+        <a href="#top">Spotify</a>
+      </nav>
+      
     </section>
   </main>
 </body>
-
 </html>
