@@ -10,102 +10,76 @@
 </head>
 
 <body>
-  <!-- main logo / nav 
-  <header class="header">
-    <h1>Ryan Cheung</h1>
-    <div class="profilepic">
-      <img src="../starter/images/profilepic.jpg" height="100px" width="auto" alt="profile picture">
-    </div>
-    <nav class="nav">
-      <a href="#about">About Me</a>
-      <a href="#work">Work</a>
-      <a href="#contact">Contact Me</a>
-    </nav>
-  -->
-
-    
   <navbar>
     <ul class="nav-list">
       <li class="nav-item">
         <h1>Ryan Cheung</h1>
       </li>
       <li class="nav-item">
-        <a href="#about">About Me</a>
+        <a href="#about">About</a>
       </li>
       <li class="nav-item">
         <a href="#work">Work</a>
       </li>
       <li class="nav-item">
-        <a href="#contact">Contact Me</a>
+        <a href="#contact">Contact</a>
       </li>
     </ul>
   </navbar>
 
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Welcome to my portfolio. Hope you enjoy!</h2>
+  <!-- Hero Banner -->
+  <div class="img-container">
+    <div class="inner-container">
+      <img src="../starter/images/profilepic.jpg" width="200px" height="auto" alt="profile pic">
+      <h2>Welcome to my portfolio. I hope you enjoy.</h2>
+    </div>
+  </div>
+
+  <!-- About Container-->
+  <section class="about-container" id="about">
+    <div class="section section1">
+      <h2>About</h2>
+    </div>
+    <div class="section section2">
+      <p>Hello, my name is Ryan. I'm currently participating in the edx front-end web development bootcamp in order to learn the necessary skills to transition myself into the tech industry. This portfolio page will show you a few of the projects ive been working on in the bootcamp!</p>
     </div>
   </section>
 
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
-      <p>Hello my name is Ryan, I am currently participating in the coding bootcamp by edx in order to get the necessary skills and experience to switch careers and land my first job in the tech industry.</p>
-    </section>
-
-    <!-- portfolio container -->
-    <!-- <div class="page-section" id="work">
+  <!-- Work Container-->
+  <div class="p-container" id="work">
+    <div class="info work">
       <h2>Work</h2>
-      <div class="row">
-        <div class="card-01">
-          <div class="card-header">
-            <h3>card1</h3>
-      </div>
-
-      <div class="row">
-        <div class="card-02">
-          <div class="card-header">
-            <h3>card2</h3>
-        </div>
-        <div class="card-02">
-          <h3 class="card-header">card2</h3>
-          </div>
-      </div>
-
-      <div class="row">
-        <div class="card-03">
-          <div class="card-header">
-            <h3>card3</h3>
-        </div>
-        <div class="card-03">
-          <div class="card-header">
-            <h3>card3</h3>
-        </div>
-      </div> -->
-
-      <div class="page-section" id="work">
-        <div class="card">
-          <div class="card-image"></div>
-          <h3>card 1</h3>
-          <p>text</p>
-        </div>
-      </div>
+    </div>
+    <div class="info portfolio">
+      <a class="project-1" href="#">
+        <h4>Surf Report</h4>
+      </a>
+      <a class="project-2" href="#">
+        <h4>LED Wall</h4>
+      </a>
+      <a class="project-3" href="#">
+        <h4>Calculator</h4>
+      </a>
+      <a class="project-4" href="#">
+        <h4>Pastel Puzzles</h4>
+      </a>
+      <a class="project-5" href="#">
+        <h4>Run Buddy</h4>
+      </a>
+    </div>
+  </div>
 
 
-    <!-- contact -->
-    <section class="page-section" id="contact">
-      <h2>Contact Me</h2>
-      <nav>
-        <a href="#top">Instagram</a>
-        <a href="#top">My Website</a>
-        <a href="#top">Github</a>
-        <a href="#top">Twitter</a>
-        <a href="#top">Spotify</a>
-      </nav>
-      
-    </section>
-  </main>
+  <!-- Contact Container-->
+  <section class="contact-container" id="contact">
+    <h2 class="contact contact-title">Contact</h2>
+    <nav class="contact contact-links">
+      <a href="#top">Instagram</a>
+      <a href="#top">My Website</a>
+      <a href="#top">Github</a>
+      <a href="#top">Twitter</a>
+      <a href="#top">Spotify</a>
+    </nav>
+  </section>
 </body>
 </html>
