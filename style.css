@@ -52,7 +52,7 @@ color: white;
 }
 /* Hero Banner */
 .img-container {
-  background-image: url(../images/banner.jpg);
+  background-image: url(./starter/images/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 120px;
@@ -119,7 +119,7 @@ align-self: flex-end;
 min-width: 100%;
 border: solid 3px darkblue;
 min-height: 300px;
-background-image: url(../images/02-portfolio-4.jpg);
+background-image: url(./starter/images/02-portfolio-4.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 } 
@@ -128,7 +128,7 @@ background-size: cover;
   min-height: 200px;
   width: 250px;
   margin-top: 30px;
-  background-image: url(../images/02-portfolio-1.jpg);
+  background-image: url(./starter/images/02-portfolio-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -137,7 +137,7 @@ background-size: cover;
   min-height: 200px;
   width: 250px;
   margin-top: 30px;
-  background-image: url(../images/02-portfolio-2.jpg);
+  background-image: url(./starter/images/02-portfolio-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -146,7 +146,7 @@ background-size: cover;
   min-height: 200px;
   width: 250px;
   margin-top: 30px;
-  background-image: url(../images/02-portfolio-3.jpg);
+  background-image: url(./starter/images/02-portfolio-3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -155,7 +155,7 @@ background-size: cover;
   min-height: 200px;
   width: 250px;
   margin-top: 30px;
-  background-image: url(../images/02-run-buddy.jpg);
+  background-image: url(./starter/images/02-run-buddy.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -221,7 +221,7 @@ h4 {
   width: 100%;
   border: solid 3px darkblue;
   min-height: 300px;
-  background-image: url(../images/02-portfolio-4.jpg);
+  background-image: url(./starter/images/02-portfolio-4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   } 
@@ -230,7 +230,7 @@ h4 {
     border: solid 3px darkblue;
     min-height: 300px;
     margin-top: 30px;
-    background-image: url(../images/02-portfolio-1.jpg);
+    background-image: url(./starter/images/02-portfolio-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -239,7 +239,7 @@ h4 {
     border: solid 3px darkblue;
     min-height: 300px;
     margin-top: 30px;
-    background-image: url(../images/02-portfolio-2.jpg);
+    background-image: url(./starter/images/02-portfolio-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -248,7 +248,7 @@ h4 {
     border: solid 3px darkblue;
     min-height: 300px;
     margin-top: 30px;
-    background-image: url(../images/02-portfolio-3.jpg);
+    background-image: url(./starter/images/02-portfolio-3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -257,7 +257,7 @@ h4 {
     border: solid 3px darkblue;
     min-height: 300px; 
     margin-top: 30px;
-    background-image: url(../images/02-run-buddy.jpg);
+    background-image: url(./starter/images/02-run-buddy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
