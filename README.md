@@ -13,7 +13,7 @@ This project was made to help me to learn how to position elements on a webpage 
 
 ## Image of Portfolio Page
 
-
+![PortfolioMadeWithFlexboxScreenshot jpg](https://user-images.githubusercontent.com/111018380/210839982-650fa634-fb6b-43f5-9ef2-d199b593f5bc.png)
 
 ## Link to Deployed Website
 
